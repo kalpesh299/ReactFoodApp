@@ -21,7 +21,7 @@ function App() {
 <BrowserRouter>
 <Header/>
 <Routes>
-  <Route path='/home' element={<MainComponent/>}/>
+  <Route path='/' element={<MainComponent/>}/>
   <Route path='/qoute' element={<Qute/>}/>
   {/* <Route path='/fooddata' element={<Foods/>}/> */}
   <Route path='/restro' element={<Foods/>}/>
